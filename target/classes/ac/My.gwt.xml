@@ -1,0 +1,10 @@
+<module rename-to="My">
+  <inherits name="com.google.gwt.angular.angulargwt"/>
+  <inherits name="com.google.gwt.angular.angulargwt"/>
+  <entry-point class="ac.MyApp"/>
+  <source path=""/>
+  <add-linker name="xsiframe"/>
+  <set-configuration-property name="xsiframe.failIfScriptTag" value="FALSE"/>
+  <set-configuration-property name="devModeRedirectEnabled" value="true"/>
+  <set-property name="compiler.useSourceMaps" value="true"/>
+</module>
